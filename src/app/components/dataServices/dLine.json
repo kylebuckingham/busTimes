@@ -1,0 +1,329 @@
+[{
+"closeststop": "1_2200",
+"routeid": "D Line",
+"lat": 47.619213,
+"lon": -122.35685,
+"stopdeviationinseconds": "6358.50000000000000000000"
+},
+{
+"closeststop": "1_13760",
+"routeid": "D Line",
+"lat": 47.663143,
+"lon": -122.37648,
+"stopdeviationinseconds": "4691.00000000000000000000"
+},
+{
+"closeststop": "1_2672",
+"routeid": "D Line",
+"lat": 47.624306,
+"lon": -122.356819,
+"stopdeviationinseconds": "4361.0000000000000000"
+},
+{
+"closeststop": "1_2220",
+"routeid": "D Line",
+"lat": 47.616871,
+"lon": -122.348625,
+"stopdeviationinseconds": "3927.0000000000000000"
+},
+{
+"closeststop": "1_578",
+"routeid": "D Line",
+"lat": 47.610485,
+"lon": -122.338356,
+"stopdeviationinseconds": "3763.00000000000000000000"
+},
+{
+"closeststop": "1_13721",
+"routeid": "D Line",
+"lat": 47.668907,
+"lon": -122.376312,
+"stopdeviationinseconds": "3201.0000000000000000"
+},
+{
+"closeststop": "1_605",
+"routeid": "D Line",
+"lat": 47.615036,
+"lon": -122.3452,
+"stopdeviationinseconds": "3073.2857142857142857"
+},
+{
+"closeststop": "1_13800",
+"routeid": "D Line",
+"lat": 47.64817,
+"lon": -122.376862,
+"stopdeviationinseconds": "2375.0000000000000000"
+},
+{
+"closeststop": "1_13910",
+"routeid": "D Line",
+"lat": 47.624535,
+"lon": -122.360718,
+"stopdeviationinseconds": "2039.0000000000000000"
+},
+{
+"closeststop": "1_2330",
+"routeid": "D Line",
+"lat": 47.618904,
+"lon": -122.355347,
+"stopdeviationinseconds": "1457.0000000000000000"
+},
+{
+"closeststop": "1_13620",
+"routeid": "D Line",
+"lat": 47.686062,
+"lon": -122.376892,
+"stopdeviationinseconds": "1432.0000000000000000"
+},
+{
+"closeststop": "1_13770",
+"routeid": "D Line",
+"lat": 47.653473,
+"lon": -122.376328,
+"stopdeviationinseconds": "1342.0000000000000000"
+},
+{
+"closeststop": "1_600",
+"routeid": "D Line",
+"lat": 47.612808,
+"lon": -122.341438,
+"stopdeviationinseconds": "1326.0000000000000000"
+},
+{
+"closeststop": "1_185",
+"routeid": "D Line",
+"lat": 47.606888,
+"lon": -122.335526,
+"stopdeviationinseconds": "1224.0000000000000000"
+},
+{
+"closeststop": "1_13810",
+"routeid": "D Line",
+"lat": 47.644825,
+"lon": -122.376328,
+"stopdeviationinseconds": "1221.00000000000000000000"
+},
+{
+"closeststop": "1_13840",
+"routeid": "D Line",
+"lat": 47.637482,
+"lon": -122.376305,
+"stopdeviationinseconds": "1177.0000000000000000"
+},
+{
+"closeststop": "1_1690",
+"routeid": "D Line",
+"lat": 47.616871,
+"lon": -122.348297,
+"stopdeviationinseconds": "1073.0000000000000000"
+},
+{
+"closeststop": "1_2370",
+"routeid": "D Line",
+"lat": 47.624649,
+"lon": -122.356552,
+"stopdeviationinseconds": "1046.0000000000000000"
+},
+{
+"closeststop": "1_14038",
+"routeid": "D Line",
+"lat": 47.624668,
+"lon": -122.361153,
+"stopdeviationinseconds": "966.0000000000000000"
+},
+{
+"closeststop": "1_13600",
+"routeid": "D Line",
+"lat": 47.690159,
+"lon": -122.3769,
+"stopdeviationinseconds": "870.0000000000000000"
+},
+{
+"closeststop": "1_13670",
+"routeid": "D Line",
+"lat": 47.676014,
+"lon": -122.37664,
+"stopdeviationinseconds": "815.0000000000000000"
+},
+{
+"closeststop": "1_14280",
+"routeid": "D Line",
+"lat": 47.676731,
+"lon": -122.376671,
+"stopdeviationinseconds": "736.0000000000000000"
+},
+{
+"closeststop": "1_13890",
+"routeid": "D Line",
+"lat": 47.629067,
+"lon": -122.371742,
+"stopdeviationinseconds": "728.00000000000000000000"
+},
+{
+"closeststop": "1_13870",
+"routeid": "D Line",
+"lat": 47.631969,
+"lon": -122.375397,
+"stopdeviationinseconds": "727.0000000000000000"
+},
+{
+"closeststop": "1_13700",
+"routeid": "D Line",
+"lat": 47.672436,
+"lon": -122.376312,
+"stopdeviationinseconds": "724.0000000000000000"
+},
+{
+"closeststop": "1_13640",
+"routeid": "D Line",
+"lat": 47.682991,
+"lon": -122.376892,
+"stopdeviationinseconds": "503.0000000000000000"
+},
+{
+"closeststop": "1_14340",
+"routeid": "D Line",
+"lat": 47.68713,
+"lon": -122.376701,
+"stopdeviationinseconds": "426.0000000000000000"
+},
+{
+"closeststop": "1_13660",
+"routeid": "D Line",
+"lat": 47.679035,
+"lon": -122.376877,
+"stopdeviationinseconds": "335.0000000000000000"
+},
+{
+"closeststop": "1_14130",
+"routeid": "D Line",
+"lat": 47.640923,
+"lon": -122.376114,
+"stopdeviationinseconds": "213.0000000000000000"
+},
+{
+"closeststop": "1_14300",
+"routeid": "D Line",
+"lat": 47.679726,
+"lon": -122.376671,
+"stopdeviationinseconds": "163.0000000000000000"
+},
+{
+"closeststop": "1_14250",
+"routeid": "D Line",
+"lat": 47.672291,
+"lon": -122.376114,
+"stopdeviationinseconds": "74.0000000000000000"
+},
+{
+"closeststop": "1_13830",
+"routeid": "D Line",
+"lat": 47.64032,
+"lon": -122.376312,
+"stopdeviationinseconds": "9.0000000000000000"
+},
+{
+"closeststop": "1_14110",
+"routeid": "D Line",
+"lat": 47.636963,
+"lon": -122.376099,
+"stopdeviationinseconds": "-20.0000000000000000"
+},
+{
+"closeststop": "1_40050",
+"routeid": "D Line",
+"lat": 47.694698,
+"lon": -122.375343,
+"stopdeviationinseconds": "-61.0000000000000000"
+},
+{
+"closeststop": "1_22557",
+"routeid": "D Line",
+"lat": 47.520962,
+"lon": -122.367355,
+"stopdeviationinseconds": "-167.28571428571428570000"
+},
+{
+"closeststop": "1_14230",
+"routeid": "D Line",
+"lat": 47.668472,
+"lon": -122.376114,
+"stopdeviationinseconds": "-203.0000000000000000"
+},
+{
+"closeststop": "1_14090",
+"routeid": "D Line",
+"lat": 47.632252,
+"lon": -122.375481,
+"stopdeviationinseconds": "-379.0000000000000000"
+},
+{
+"closeststop": "1_14200",
+"routeid": "D Line",
+"lat": 47.663437,
+"lon": -122.375977,
+"stopdeviationinseconds": "-394.0000000000000000"
+},
+{
+"closeststop": "1_28680",
+"routeid": "D Line",
+"lat": 47.702484,
+"lon": -122.363708,
+"stopdeviationinseconds": "-471.09999999999999990000"
+},
+{
+"closeststop": "1_40049",
+"routeid": "D Line",
+"lat": 47.694534,
+"lon": -122.375755,
+"stopdeviationinseconds": "-479.0000000000000000"
+},
+{
+"closeststop": "1_14320",
+"routeid": "D Line",
+"lat": 47.683422,
+"lon": -122.376686,
+"stopdeviationinseconds": "-531.0000000000000000"
+},
+{
+"closeststop": "1_14360",
+"routeid": "D Line",
+"lat": 47.691177,
+"lon": -122.376709,
+"stopdeviationinseconds": "-737.0000000000000000"
+},
+{
+"closeststop": "1_14150",
+"routeid": "D Line",
+"lat": 47.644936,
+"lon": -122.376122,
+"stopdeviationinseconds": "-744.0000000000000000"
+},
+{
+"closeststop": "1_14070",
+"routeid": "D Line",
+"lat": 47.628788,
+"lon": -122.371124,
+"stopdeviationinseconds": "-946.0000000000000000"
+},
+{
+"closeststop": "1_14190",
+"routeid": "D Line",
+"lat": 47.653942,
+"lon": -122.376122,
+"stopdeviationinseconds": "-1048.0000000000000000"
+},
+{
+"closeststop": "1_14170",
+"routeid": "D Line",
+"lat": 47.649097,
+"lon": -122.376045,
+"stopdeviationinseconds": "-1111.00000000000000000000"
+},
+{
+"closeststop": "1_2360",
+"routeid": "D Line",
+"lat": 47.623188,
+"lon": -122.355316,
+"stopdeviationinseconds": "-1453.0000000000000000"
+}]

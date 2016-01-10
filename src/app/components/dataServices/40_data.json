@@ -1,0 +1,756 @@
+[{
+    "closeststop": "1_26800",
+    "routeid": "40",
+    "lat": 47.638165,
+    "lon": -122.340775,
+    "stopdeviationinseconds": "409.5000000000000000"
+  },
+  {
+    "closeststop": "1_28415",
+    "routeid": "40",
+    "lat": 47.661015,
+    "lon": -122.3666,
+    "stopdeviationinseconds": "352.0000000000000000"
+  },
+  {
+    "closeststop": "1_28416",
+    "routeid": "40",
+    "lat": 47.663727,
+    "lon": -122.371246,
+    "stopdeviationinseconds": "332.0000000000000000"
+  },
+  {
+    "closeststop": "1_17710",
+    "routeid": "40",
+    "lat": 47.699268,
+    "lon": -122.334908,
+    "stopdeviationinseconds": "299.0000000000000000"
+  },
+  {
+    "closeststop": "1_40044",
+    "routeid": "40",
+    "lat": 47.698284,
+    "lon": -122.369019,
+    "stopdeviationinseconds": "278.0000000000000000"
+  },
+  {
+    "closeststop": "1_26690",
+    "routeid": "40",
+    "lat": 47.618267,
+    "lon": -122.338341,
+    "stopdeviationinseconds": "263.0000000000000000"
+  },
+  {
+    "closeststop": "1_600",
+    "routeid": "40",
+    "lat": 47.612808,
+    "lon": -122.341438,
+    "stopdeviationinseconds": "229.5000000000000000"
+  },
+  {
+    "closeststop": "1_40030",
+    "routeid": "40",
+    "lat": 47.705116,
+    "lon": -122.341866,
+    "stopdeviationinseconds": "228.0000000000000000"
+  },
+  {
+    "closeststop": "1_40046",
+    "routeid": "40",
+    "lat": 47.69627,
+    "lon": -122.372993,
+    "stopdeviationinseconds": "221.0000000000000000"
+  },
+  {
+    "closeststop": "1_531",
+    "routeid": "40",
+    "lat": 47.602642,
+    "lon": -122.331184,
+    "stopdeviationinseconds": "215.0000000000000000"
+  },
+  {
+    "closeststop": "1_590",
+    "routeid": "40",
+    "lat": 47.611137,
+    "lon": -122.338951,
+    "stopdeviationinseconds": "212.0000000000000000"
+  },
+  {
+    "closeststop": "1_19570",
+    "routeid": "40",
+    "lat": 47.679733,
+    "lon": -122.387451,
+    "stopdeviationinseconds": "205.5000000000000000"
+  },
+  {
+    "closeststop": "1_19240",
+    "routeid": "40",
+    "lat": 47.690327,
+    "lon": -122.387711,
+    "stopdeviationinseconds": "201.5000000000000000"
+  },
+  {
+    "closeststop": "1_35324",
+    "routeid": "40",
+    "lat": 47.702499,
+    "lon": -122.327316,
+    "stopdeviationinseconds": "196.0000000000000000"
+  },
+  {
+    "closeststop": "1_19260",
+    "routeid": "40",
+    "lat": 47.686607,
+    "lon": -122.387695,
+    "stopdeviationinseconds": "194.0000000000000000"
+  },
+  {
+    "closeststop": "1_26730",
+    "routeid": "40",
+    "lat": 47.625504,
+    "lon": -122.338394,
+    "stopdeviationinseconds": "192.0000000000000000"
+  },
+  {
+    "closeststop": "1_28350",
+    "routeid": "40",
+    "lat": 47.651936,
+    "lon": -122.352791,
+    "stopdeviationinseconds": "186.0000000000000000"
+  },
+  {
+    "closeststop": "1_548",
+    "routeid": "40",
+    "lat": 47.605541,
+    "lon": -122.333832,
+    "stopdeviationinseconds": "176.0000000000000000"
+  },
+  {
+    "closeststop": "1_259",
+    "routeid": "40",
+    "lat": 47.614525,
+    "lon": -122.342598,
+    "stopdeviationinseconds": "175.0000000000000000"
+  },
+  {
+    "closeststop": "1_28300",
+    "routeid": "40",
+    "lat": 47.652844,
+    "lon": -122.357452,
+    "stopdeviationinseconds": "168.0000000000000000"
+  },
+  {
+    "closeststop": "1_19270",
+    "routeid": "40",
+    "lat": 47.684727,
+    "lon": -122.38768,
+    "stopdeviationinseconds": "163.5000000000000000"
+  },
+  {
+    "closeststop": "1_40049",
+    "routeid": "40",
+    "lat": 47.694534,
+    "lon": -122.375755,
+    "stopdeviationinseconds": "156.0000000000000000"
+  },
+  {
+    "closeststop": "1_18150",
+    "routeid": "40",
+    "lat": 47.665367,
+    "lon": -122.380714,
+    "stopdeviationinseconds": "152.0000000000000000"
+  },
+  {
+    "closeststop": "1_35580",
+    "routeid": "40",
+    "lat": 47.690525,
+    "lon": -122.381874,
+    "stopdeviationinseconds": "151.0000000000000000"
+  },
+  {
+    "closeststop": "1_26510",
+    "routeid": "40",
+    "lat": 47.649677,
+    "lon": -122.349869,
+    "stopdeviationinseconds": "149.0000000000000000"
+  },
+  {
+    "closeststop": "1_26715",
+    "routeid": "40",
+    "lat": 47.621849,
+    "lon": -122.338356,
+    "stopdeviationinseconds": "149.0000000000000000"
+  },
+  {
+    "closeststop": "1_28260",
+    "routeid": "40",
+    "lat": 47.658703,
+    "lon": -122.364609,
+    "stopdeviationinseconds": "149.0000000000000000"
+  },
+  {
+    "closeststop": "1_17698",
+    "routeid": "40",
+    "lat": 47.695995,
+    "lon": -122.330513,
+    "stopdeviationinseconds": "147.5000000000000000"
+  },
+  {
+    "closeststop": "1_40054",
+    "routeid": "40",
+    "lat": 47.698441,
+    "lon": -122.368393,
+    "stopdeviationinseconds": "139.0000000000000000"
+  },
+  {
+    "closeststop": "1_17755",
+    "routeid": "40",
+    "lat": 47.708534,
+    "lon": -122.33461,
+    "stopdeviationinseconds": "128.0000000000000000"
+  },
+  {
+    "closeststop": "1_37078",
+    "routeid": "40",
+    "lat": 47.690651,
+    "lon": -122.38472,
+    "stopdeviationinseconds": "127.0000000000000000"
+  },
+  {
+    "closeststop": "1_18740",
+    "routeid": "40",
+    "lat": 47.668747,
+    "lon": -122.386368,
+    "stopdeviationinseconds": "123.0000000000000000"
+  },
+  {
+    "closeststop": "1_28280",
+    "routeid": "40",
+    "lat": 47.655113,
+    "lon": -122.361122,
+    "stopdeviationinseconds": "119.0000000000000000"
+  },
+  {
+    "closeststop": "1_35297",
+    "routeid": "40",
+    "lat": 47.701626,
+    "lon": -122.327263,
+    "stopdeviationinseconds": "116.0000000000000000"
+  },
+  {
+    "closeststop": "1_19280",
+    "routeid": "40",
+    "lat": 47.682991,
+    "lon": -122.387665,
+    "stopdeviationinseconds": "113.0000000000000000"
+  },
+  {
+    "closeststop": "1_19530",
+    "routeid": "40",
+    "lat": 47.673363,
+    "lon": -122.387489,
+    "stopdeviationinseconds": "113.0000000000000000"
+  },
+  {
+    "closeststop": "1_26770",
+    "routeid": "40",
+    "lat": 47.632725,
+    "lon": -122.340706,
+    "stopdeviationinseconds": "112.0000000000000000"
+  },
+  {
+    "closeststop": "1_40038",
+    "routeid": "40",
+    "lat": 47.705151,
+    "lon": -122.35524,
+    "stopdeviationinseconds": "108.0000000000000000"
+  },
+  {
+    "closeststop": "1_19360",
+    "routeid": "40",
+    "lat": 47.669964,
+    "lon": -122.387695,
+    "stopdeviationinseconds": "107.5000000000000000"
+  },
+  {
+    "closeststop": "1_40035",
+    "routeid": "40",
+    "lat": 47.705139,
+    "lon": -122.350388,
+    "stopdeviationinseconds": "106.5000000000000000"
+  },
+  {
+    "closeststop": "1_37083",
+    "routeid": "40",
+    "lat": 47.690659,
+    "lon": -122.381462,
+    "stopdeviationinseconds": "104.5000000000000000"
+  },
+  {
+    "closeststop": "1_28410",
+    "routeid": "40",
+    "lat": 47.658684,
+    "lon": -122.364349,
+    "stopdeviationinseconds": "100.0000000000000000"
+  },
+  {
+    "closeststop": "1_37081",
+    "routeid": "40",
+    "lat": 47.690678,
+    "lon": -122.377159,
+    "stopdeviationinseconds": "98.0000000000000000"
+  },
+  {
+    "closeststop": "1_18145",
+    "routeid": "40",
+    "lat": 47.667316,
+    "lon": -122.383018,
+    "stopdeviationinseconds": "97.0000000000000000"
+  },
+  {
+    "closeststop": "1_26580",
+    "routeid": "40",
+    "lat": 47.635105,
+    "lon": -122.340523,
+    "stopdeviationinseconds": "95.0000000000000000"
+  },
+  {
+    "closeststop": "1_19510",
+    "routeid": "40",
+    "lat": 47.670299,
+    "lon": -122.387489,
+    "stopdeviationinseconds": "94.0000000000000000"
+  },
+  {
+    "closeststop": "1_26520",
+    "routeid": "40",
+    "lat": 47.645809,
+    "lon": -122.349319,
+    "stopdeviationinseconds": "93.0000000000000000"
+  },
+  {
+    "closeststop": "1_17696",
+    "routeid": "40",
+    "lat": 47.697723,
+    "lon": -122.32856,
+    "stopdeviationinseconds": "93.0000000000000000"
+  },
+  {
+    "closeststop": "1_17730",
+    "routeid": "40",
+    "lat": 47.703201,
+    "lon": -122.333794,
+    "stopdeviationinseconds": "88.0000000000000000"
+  },
+  {
+    "closeststop": "1_40032",
+    "routeid": "40",
+    "lat": 47.705124,
+    "lon": -122.345291,
+    "stopdeviationinseconds": "85.5000000000000000"
+  },
+  {
+    "closeststop": "1_18165",
+    "routeid": "40",
+    "lat": 47.663593,
+    "lon": -122.375587,
+    "stopdeviationinseconds": "81.0000000000000000"
+  },
+  {
+    "closeststop": "1_28390",
+    "routeid": "40",
+    "lat": 47.655521,
+    "lon": -122.361275,
+    "stopdeviationinseconds": "75.0000000000000000"
+  },
+  {
+    "closeststop": "1_19340",
+    "routeid": "40",
+    "lat": 47.672901,
+    "lon": -122.387695,
+    "stopdeviationinseconds": "72.0000000000000000"
+  },
+  {
+    "closeststop": "1_570",
+    "routeid": "40",
+    "lat": 47.608688,
+    "lon": -122.3367,
+    "stopdeviationinseconds": "69.0000000000000000"
+  },
+  {
+    "closeststop": "1_450",
+    "routeid": "40",
+    "lat": 47.60825,
+    "lon": -122.336548,
+    "stopdeviationinseconds": "68.0000000000000000"
+  },
+  {
+    "closeststop": "1_13585",
+    "routeid": "40",
+    "lat": 47.692932,
+    "lon": -122.376755,
+    "stopdeviationinseconds": "63.0000000000000000"
+  },
+  {
+    "closeststop": "1_26860",
+    "routeid": "40",
+    "lat": 47.64986,
+    "lon": -122.349678,
+    "stopdeviationinseconds": "59.5000000000000000"
+  },
+  {
+    "closeststop": "1_19300",
+    "routeid": "40",
+    "lat": 47.679203,
+    "lon": -122.387642,
+    "stopdeviationinseconds": "55.0000000000000000"
+  },
+  {
+    "closeststop": "1_26850",
+    "routeid": "40",
+    "lat": 47.645569,
+    "lon": -122.348434,
+    "stopdeviationinseconds": "47.0000000000000000"
+  },
+  {
+    "closeststop": "1_26840",
+    "routeid": "40",
+    "lat": 47.644134,
+    "lon": -122.345016,
+    "stopdeviationinseconds": "36.0000000000000000"
+  },
+  {
+    "closeststop": "1_28265",
+    "routeid": "40",
+    "lat": 47.660751,
+    "lon": -122.366592,
+    "stopdeviationinseconds": "29.5000000000000000"
+  },
+  {
+    "closeststop": "1_17740",
+    "routeid": "40",
+    "lat": 47.705006,
+    "lon": -122.333832,
+    "stopdeviationinseconds": "27.5000000000000000"
+  },
+  {
+    "closeststop": "1_40042",
+    "routeid": "40",
+    "lat": 47.700306,
+    "lon": -122.365044,
+    "stopdeviationinseconds": "27.0000000000000000"
+  },
+  {
+    "closeststop": "1_28370",
+    "routeid": "40",
+    "lat": 47.653084,
+    "lon": -122.357857,
+    "stopdeviationinseconds": "16.5000000000000000"
+  },
+  {
+    "closeststop": "1_26760",
+    "routeid": "40",
+    "lat": 47.629948,
+    "lon": -122.340881,
+    "stopdeviationinseconds": "13.5000000000000000"
+  },
+  {
+    "closeststop": "1_19590",
+    "routeid": "40",
+    "lat": 47.683372,
+    "lon": -122.387459,
+    "stopdeviationinseconds": "12.0000000000000000"
+  },
+  {
+    "closeststop": "1_400",
+    "routeid": "40",
+    "lat": 47.614445,
+    "lon": -122.344513,
+    "stopdeviationinseconds": "12.0000000000000000"
+  },
+  {
+    "closeststop": "1_26560",
+    "routeid": "40",
+    "lat": 47.638065,
+    "lon": -122.340935,
+    "stopdeviationinseconds": "0.50000000000000000000"
+  },
+  {
+    "closeststop": "1_619",
+    "routeid": "40",
+    "lat": 47.599827,
+    "lon": -122.328972,
+    "stopdeviationinseconds": "0.00000000000000000000"
+  },
+  {
+    "closeststop": "1_26600",
+    "routeid": "40",
+    "lat": 47.629795,
+    "lon": -122.341087,
+    "stopdeviationinseconds": "-2.0000000000000000"
+  },
+  {
+    "closeststop": "1_28310",
+    "routeid": "40",
+    "lat": 47.652058,
+    "lon": -122.353966,
+    "stopdeviationinseconds": "-3.0000000000000000"
+  },
+  {
+    "closeststop": "1_40050",
+    "routeid": "40",
+    "lat": 47.694698,
+    "lon": -122.375343,
+    "stopdeviationinseconds": "-4.0000000000000000"
+  },
+  {
+    "closeststop": "1_21850",
+    "routeid": "40",
+    "lat": 47.592117,
+    "lon": -122.323807,
+    "stopdeviationinseconds": "-5.0000000000000000"
+  },
+  {
+    "closeststop": "1_18696",
+    "routeid": "40",
+    "lat": 47.663731,
+    "lon": -122.37709,
+    "stopdeviationinseconds": "-10.0000000000000000"
+  },
+  {
+    "closeststop": "1_40060",
+    "routeid": "40",
+    "lat": 47.704617,
+    "lon": -122.356209,
+    "stopdeviationinseconds": "-13.0000000000000000"
+  },
+  {
+    "closeststop": "1_18706",
+    "routeid": "40",
+    "lat": 47.665527,
+    "lon": -122.380646,
+    "stopdeviationinseconds": "-13.50000000000000000000"
+  },
+  {
+    "closeststop": "1_19320",
+    "routeid": "40",
+    "lat": 47.675556,
+    "lon": -122.387695,
+    "stopdeviationinseconds": "-18.0000000000000000"
+  },
+  {
+    "closeststop": "1_28255",
+    "routeid": "40",
+    "lat": 47.66359,
+    "lon": -122.371025,
+    "stopdeviationinseconds": "-18.0000000000000000"
+  },
+  {
+    "closeststop": "1_16960",
+    "routeid": "40",
+    "lat": 47.70821,
+    "lon": -122.334091,
+    "stopdeviationinseconds": "-21.0000000000000000"
+  },
+  {
+    "closeststop": "1_480",
+    "routeid": "40",
+    "lat": 47.604996,
+    "lon": -122.333572,
+    "stopdeviationinseconds": "-23.5000000000000000"
+  },
+  {
+    "closeststop": "1_14360",
+    "routeid": "40",
+    "lat": 47.691177,
+    "lon": -122.376709,
+    "stopdeviationinseconds": "-30.5000000000000000"
+  },
+  {
+    "closeststop": "1_40068",
+    "routeid": "40",
+    "lat": 47.704983,
+    "lon": -122.344307,
+    "stopdeviationinseconds": "-39.0000000000000000"
+  },
+  {
+    "closeststop": "1_26635",
+    "routeid": "40",
+    "lat": 47.624096,
+    "lon": -122.339844,
+    "stopdeviationinseconds": "-40.0000000000000000"
+  },
+  {
+    "closeststop": "1_19610",
+    "routeid": "40",
+    "lat": 47.687008,
+    "lon": -122.387489,
+    "stopdeviationinseconds": "-41.0000000000000000"
+  },
+  {
+    "closeststop": "1_18120",
+    "routeid": "40",
+    "lat": 47.668613,
+    "lon": -122.385468,
+    "stopdeviationinseconds": "-41.0000000000000000"
+  },
+  {
+    "closeststop": "1_19550",
+    "routeid": "40",
+    "lat": 47.67614,
+    "lon": -122.387436,
+    "stopdeviationinseconds": "-44.5000000000000000"
+  },
+  {
+    "closeststop": "1_40056",
+    "routeid": "40",
+    "lat": 47.70044,
+    "lon": -122.364433,
+    "stopdeviationinseconds": "-55.0000000000000000"
+  },
+  {
+    "closeststop": "1_40070",
+    "routeid": "40",
+    "lat": 47.704975,
+    "lon": -122.341675,
+    "stopdeviationinseconds": "-58.0000000000000000"
+  },
+  {
+    "closeststop": "1_430",
+    "routeid": "40",
+    "lat": 47.610973,
+    "lon": -122.339035,
+    "stopdeviationinseconds": "-61.0000000000000000"
+  },
+  {
+    "closeststop": "1_40065",
+    "routeid": "40",
+    "lat": 47.705006,
+    "lon": -122.34977,
+    "stopdeviationinseconds": "-73.0000000000000000"
+  },
+  {
+    "closeststop": "1_26652",
+    "routeid": "40",
+    "lat": 47.619808,
+    "lon": -122.339882,
+    "stopdeviationinseconds": "-80.0000000000000000"
+  },
+  {
+    "closeststop": "1_420",
+    "routeid": "40",
+    "lat": 47.612373,
+    "lon": -122.341019,
+    "stopdeviationinseconds": "-101.0000000000000000"
+  },
+  {
+    "closeststop": "1_18720",
+    "routeid": "40",
+    "lat": 47.66721,
+    "lon": -122.382629,
+    "stopdeviationinseconds": "-109.0000000000000000"
+  },
+  {
+    "closeststop": "1_26590",
+    "routeid": "40",
+    "lat": 47.632748,
+    "lon": -122.340897,
+    "stopdeviationinseconds": "-121.5000000000000000"
+  },
+  {
+    "closeststop": "1_26610",
+    "routeid": "40",
+    "lat": 47.627697,
+    "lon": -122.340141,
+    "stopdeviationinseconds": "-130.0000000000000000"
+  },
+  {
+    "closeststop": "1_18406",
+    "routeid": "40",
+    "lat": 47.617165,
+    "lon": -122.341743,
+    "stopdeviationinseconds": "-150.0000000000000000"
+  },
+  {
+    "closeststop": "1_500",
+    "routeid": "40",
+    "lat": 47.602234,
+    "lon": -122.331047,
+    "stopdeviationinseconds": "-160.5000000000000000"
+  },
+  {
+    "closeststop": "1_19600",
+    "routeid": "40",
+    "lat": 47.68515,
+    "lon": -122.387489,
+    "stopdeviationinseconds": "-161.5000000000000000"
+  },
+  {
+    "closeststop": "1_515",
+    "routeid": "40",
+    "lat": 47.600239,
+    "lon": -122.330376,
+    "stopdeviationinseconds": "-183.0000000000000000"
+  },
+  {
+    "closeststop": "1_16990",
+    "routeid": "40",
+    "lat": 47.703052,
+    "lon": -122.334106,
+    "stopdeviationinseconds": "-190.0000000000000000"
+  },
+  {
+    "closeststop": "1_40058",
+    "routeid": "40",
+    "lat": 47.702492,
+    "lon": -122.36039,
+    "stopdeviationinseconds": "-190.0000000000000000"
+  },
+  {
+    "closeststop": "1_35570",
+    "routeid": "40",
+    "lat": 47.690517,
+    "lon": -122.384018,
+    "stopdeviationinseconds": "-249.0000000000000000"
+  },
+  {
+    "closeststop": "1_19250",
+    "routeid": "40",
+    "lat": 47.688824,
+    "lon": -122.387711,
+    "stopdeviationinseconds": "-274.5000000000000000"
+  },
+  {
+    "closeststop": "1_40052",
+    "routeid": "40",
+    "lat": 47.69643,
+    "lon": -122.372337,
+    "stopdeviationinseconds": "-305.5000000000000000"
+  },
+  {
+    "closeststop": "1_17024",
+    "routeid": "40",
+    "lat": 47.697922,
+    "lon": -122.328354,
+    "stopdeviationinseconds": "-383.5000000000000000"
+  },
+  {
+    "closeststop": "1_16980",
+    "routeid": "40",
+    "lat": 47.70512,
+    "lon": -122.334038,
+    "stopdeviationinseconds": "-398.5000000000000000"
+  },
+  {
+    "closeststop": "1_17022",
+    "routeid": "40",
+    "lat": 47.695854,
+    "lon": -122.330673,
+    "stopdeviationinseconds": "-405.5000000000000000"
+  },
+  {
+    "closeststop": "1_17010",
+    "routeid": "40",
+    "lat": 47.699341,
+    "lon": -122.335297,
+    "stopdeviationinseconds": "-446.0000000000000000"
+  }]

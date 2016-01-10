@@ -1,0 +1,55 @@
+<div class="container">
+
+	<div class="cssload-dots" ng-if="loading">
+		<div class="cssload-dot"></div>
+		<div class="cssload-dot"></div>
+		<div class="cssload-dot"></div>
+		<div class="cssload-dot"></div>
+		<div class="cssload-dot"></div>
+	</div>
+
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<defs>
+			<filter id="goo">
+				<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" ></feGaussianBlur>
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0	0 1 0 0 0	0 0 1 0 0	0 0 0 18 -7" result="goo" ></feColorMatrix>
+				<!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
+			</filter>
+		</defs>
+	</svg>
+
+
+	<map zoom="11" id="map" center="[47.609722,-122.333056]" ng-if="vm.ready">
+
+		<marker ng-if="marks === true && mapData" ng-repeat="pos in mapData" position="{{pos.lat}},{{pos.lon}}" on-click="showInfoWindow(event, pos)"></marker>
+
+		<heatmap-layer ng-if="heat === true && mapData" data="mapData" id="foo"></heatmap-layer>
+	</map>
+
+	<div class="controls">
+
+		<div class="choseTime">
+			<select name="start" ng-options="time for time in possibleTimes" ng-model="times.start"></select> to
+			<select name="end" ng-options="time for time in possibleTimes" ng-model="times.end"></select>
+			<div>
+				<span ng-if="badTime">Start must become before end</span>
+			</div>
+			<!-- <span ng-click="times.splice($index, 1)">x</span> -->
+			<!-- <div ng-click="times.push({start: '12 am', end: '12 am'})">+ add time range</div> -->
+		</div>
+
+		<div>
+			<span>Lateness (min)</span>
+			<input type="number" id="lateness" name="quantity" min="0" ng-model="lateness">
+		</div>
+
+		<div ng-dropdown-multiselect="" options="routes" selected-model="selectedRoutes" extra-settings="mOptions" translation-texts="mTexts"></div>
+
+		<div>
+			<button type="button" class="btn btn-primary" ng-click="marks = !marks">Markers</button>
+			<button type="button" class="btn btn-primary" ng-click="heat = !heat">HeatMap</button>
+		</div>
+
+	</div>
+
+</div>
