@@ -35,10 +35,14 @@
             buttonDefaultText: 'Select Route(s)'
         }
 
+        // days of week button
+        $scope.days = ["Weekdays", "Weekends","Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday", "Saturday"];
+        $scope.day = "Weekdays";
+
         function getData(){
 
             $scope.loading = true;
-            dataService.getData($scope.times).then(function(data){
+            dataService.getData($scope.times, $scope.day).then(function(data){
                 $scope.loading = false;
                 $scope.data = data.data;
 
@@ -94,28 +98,25 @@
             }
         }, true);
 
-        $scope.$watch('times', function(newVal, oldVal) {
-            if (newVal !== oldVal){
-                var start = parseInt($scope.times.start.match(/\d+/))
-                var end = parseInt($scope.times.end.match(/\d+/))
+        $scope.compute = function(){
+            var start = parseInt($scope.times.start.match(/\d+/))
+            var end = parseInt($scope.times.end.match(/\d+/))
 
-                // convert to military time
-                if ($scope.times.start.indexOf('pm') != -1){
-                    start += 12;
-                }
-                if ($scope.times.end.indexOf('pm') != -1){
-                    end += 12;
-                }
-
-                if (start > end){
-                    $scope.badTime = true;
-                } else {
-                    $scope.badTime = false;
-                    getData();
-                }
-
+            // convert to military time
+            if ($scope.times.start.indexOf('pm') != -1){
+                start += 12;
             }
-        }, true);
+            if ($scope.times.end.indexOf('pm') != -1){
+                end += 12;
+            }
+
+            if (start > end){
+                $scope.badTime = true;
+            } else {
+                $scope.badTime = false;
+                getData();
+            }
+        }
 
         $scope.$watch('lateness', function(newVal, oldVal) {
             if (newVal !== oldVal){

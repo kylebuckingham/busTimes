@@ -1,6 +1,6 @@
 <div class="container">
 
-	<div class="cssload-dots" ng-if="loading">
+	<div class="cssload-dots" ng-if="loading   ">
 		<div class="cssload-dot"></div>
 		<div class="cssload-dot"></div>
 		<div class="cssload-dot"></div>
@@ -18,7 +18,6 @@
 		</defs>
 	</svg>
 
-
 	<map zoom="11" id="map" center="[47.609722,-122.333056]" ng-if="vm.ready">
 
 		<marker ng-if="marks === true && mapData" ng-repeat="pos in mapData" position="{{pos.lat}},{{pos.lon}}" on-click="showInfoWindow(event, pos)"></marker>
@@ -26,7 +25,11 @@
 		<heatmap-layer ng-if="heat === true && mapData" data="mapData" id="foo"></heatmap-layer>
 	</map>
 
-	<div class="controls">
+	<div class="controlsDB">
+
+		<div class="choseTime">
+			<select name="days" ng-options="days for days in days" ng-model="day"></select>
+		</div>
 
 		<div class="choseTime">
 			<select name="start" ng-options="time for time in possibleTimes" ng-model="times.start"></select> to
@@ -39,6 +42,14 @@
 		</div>
 
 		<div>
+			<button type="button" class="btn btn-primary" ng-click="compute()">Submit</button>
+		</div>
+
+	</div>
+
+	<div class="controls">
+
+		<div>
 			<span>Lateness (min)</span>
 			<input type="number" id="lateness" name="quantity" min="0" ng-model="lateness">
 		</div>
@@ -46,10 +57,16 @@
 		<div ng-dropdown-multiselect="" options="routes" selected-model="selectedRoutes" extra-settings="mOptions" translation-texts="mTexts"></div>
 
 		<div>
-			<button type="button" class="btn btn-primary" ng-click="marks = !marks">Markers</button>
-			<button type="button" class="btn btn-primary" ng-click="heat = !heat">HeatMap</button>
+
+			<div class="checkbox">
+			 	<label><input type="checkbox" value="marks" ng-click="marks = !marks">Markers</label>
+			</div>
+			<div class="checkbox">
+			 	<label><input type="checkbox" value="heat" ng-click="heat = !heat">Heat Map</label>
+			</div>
 		</div>
 
 	</div>
+
 
 </div>

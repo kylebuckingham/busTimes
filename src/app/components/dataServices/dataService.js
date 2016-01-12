@@ -23,11 +23,11 @@
 
         return {
             // User Data
-            getData: function(times){
+            getData: function(times, days){
 
                 var deferred = $q.defer();
 
-                var queryStr = 'https://3zstizfpne.execute-api.us-west-2.amazonaws.com/prod/records?start=' + times.start + '&end=' + times.end;
+                var queryStr = 'https://3zstizfpne.execute-api.us-west-2.amazonaws.com/prod/records?start=' + times.start + '&end=' + times.end + '&days=' + days;
 
                 // Uncomment for testing
                 // $http.get('app/components/dataServices/data.json')
