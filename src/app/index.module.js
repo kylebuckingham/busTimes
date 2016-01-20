@@ -14,7 +14,8 @@
         'ui.bootstrap',
         'ngMap',
         'angularjs-dropdown-multiselect',
-        'customFilters'
+        'customFilters',
+        'angular-loading-bar'
     ]);
 
 })();
