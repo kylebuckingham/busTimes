@@ -147,6 +147,13 @@
         return function (arr, field) {
             return _.uniq(arr, function(a) { return a[field]; });
         };
+    })
+
+    .filter('rgbToHex', function() {
+        return function (rgb) {
+             return  ("0" + parseInt(rgb[0],10).toString(16)).slice(-2) + ("0" + parseInt(rgb[1],10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2],10).toString(16)).slice(-2);
+        };
     });
+
 
 })();

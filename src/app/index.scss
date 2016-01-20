@@ -43,9 +43,13 @@ select  {
     position: absolute;
     top: 0;
 }
+.marker {
+  font-size: 40px;
+  line-height: 70px;
+}
 .modal-body{
     height: 215px;
-    padding: 45px;
+    padding: 30px;
 }
 .modal-footer {
   border: none;
@@ -119,7 +123,7 @@ select  {
   border-radius: 3px;
   border: 1px solid;
   border-color: #e5e6e9 #dfe0e4 #d0d1d5;
-
+  margin: 10px;
 }
 
 

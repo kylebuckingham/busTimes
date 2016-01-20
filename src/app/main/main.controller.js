@@ -68,18 +68,24 @@
                     // if point in route ids
                     for (var i in $scope.selectedRoutes){
                         if ($scope.selectedRoutes[i].id === $scope.data[point].routeid){
-                            $scope.mapData.push({
+
+                            var pct = weight / 2000;
+
+                            var r = (pct > 50) ? 255 : Math.round(255 * pct),
+                                g = (pct < 50) ? 100 : Math.round(100 * (100 - pct));
+
+                            $scope.mapData.push(new google.maps.Marker({
                                 location: new google.maps.LatLng($scope.data[point].lat, $scope.data[point].lon),
                                 weight: weight / 60,
                                 lat: $scope.data[point].lat,
                                 lon: $scope.data[point].lon,
-                                id: $scope.data[point].routeid
-                            });
+                                id: $scope.data[point].routeid,
+                                color: 'rgb(' + r + ',' + g + ',' + '0)'
+                            }));
                         }
                     }
                 }
             }
-
             vm.ready = true;
         }
 
