@@ -13,7 +13,8 @@
         'ngRoute',
         'ui.bootstrap',
         'ngMap',
-        'angularjs-dropdown-multiselect'
+        'angularjs-dropdown-multiselect',
+        'customFilters'
     ]);
 
 })();

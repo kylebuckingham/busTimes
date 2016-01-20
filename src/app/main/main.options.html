@@ -1,0 +1,74 @@
+<div class="createGraphDb">
+
+    <div class="modal-body">
+
+        <div class="col-md-4">
+            <h4>What's this?</h4>
+            <div>
+                <span>Buses are late (a lot). You can use this site to see where your bus tends to get off schedule.</span>
+            </div>
+        </div>
+
+        <form class="form-horizontal explanation col-md-8">
+
+            <div class="step1">
+                <span class="title">Step 1: </span><span> Input the general time of your commute and press "go". </span></h5>
+            </div>
+
+            <!-- Select Days -->
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Select Days:</label>
+                <div class="col-sm-5">
+                    <select name="days" ng-options="days for days in days" ng-model="day"></select>
+                </div>
+            </div>
+
+
+            <!-- Select Times -->
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Select Times:</label>
+                <div class="col-sm-5">
+                    <select name="start" ng-options="time for time in possibleTimes" ng-model="times.start"></select> to
+                    <select name="end" ng-options="time for time in possibleTimes" ng-model="times.end"></select>
+                    <div>
+                        <span ng-if="badTime">Start must become before end</span>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="ok()">Go!</button>
+    </div>
+
+    <div class="cancel" ng-click="cancel()">
+        <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

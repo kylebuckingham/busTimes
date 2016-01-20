@@ -6,20 +6,14 @@
         .controller('MainController', MainController);
 
     /** @ngInject */
-    function MainController($scope, dataService, NgMap) {
+    function MainController($scope, dataService, NgMap, $modal, $filter) {
 
         var mapData, vm = this;
         $scope.mapData = [];
-        $scope.possibleTimes = ['12 am', '1 am','2 am','3 am','4 am','5 am','6 am','7 am','8 am','9 am','10 am','11 am','12 pm','1 pm','2 pm','3 pm','4 pm','5 pm','6 pm','7 pm','8 pm','9 pm','10 pm','11 pm']
-        $scope.times = {
-            start: '6 am',
-            end: '9 am'
-        }
-
         $scope.lateness = 0;
 
         $scope.$on('mapInitialized', function (event, map) {
-           $scope.busTimesMap = map;
+            $scope.busTimesMap = map;
         });
 
         // Multi-select params
@@ -35,9 +29,6 @@
             buttonDefaultText: 'Select Route(s)'
         }
 
-        // days of week button
-        $scope.days = ["Weekdays", "Weekends","Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday", "Saturday"];
-        $scope.day = "Weekdays";
 
         function getData(){
 
@@ -124,17 +115,37 @@
             }
         });
 
+        $scope.$watch('heat', function(newVal) {
+            if (newVal === false){
+                $scope.busTimesMap.heatmapLayers.foo.setMap(null);
+            }
+        });
+
         // map marker popups
         $scope.showInfoWindow = function (event, p) {
             var infowindow = new google.maps.InfoWindow();
             var center = new google.maps.LatLng(p.lat,p.lon);
-            infowindow.setContent('<div><span><b>Route:  </b>' + p.id + '</span><br/>' + '<span><b>Late(median):</b>  ' + p.weight * 60 + ' sec</span><br/>' + '<span><b>Lat/Lon:</b>  ' + p.lat + ' ' + p.lon + '</span><br/></div>');
+            infowindow.setContent('<div><span><b>Route:  </b>' + p.id + '</span><br/>' + '<span><b>Late(median):</b>  ' + $filter('millisToTime')(p.weight * 60 * 1000) + '</span><br/>' + '<span><b>Lat/Lon:</b>  ' + p.lat + ' ' + p.lon + '</span><br/></div>');
             infowindow.setPosition(center);
             infowindow.open($scope.busTimesMap);
          };
 
-         // init
-         getData()
+        $scope.changeOptions = function() {
+            var addOptionsModal = $modal.open({
+                animation: $scope.animationsEnabled,
+                templateUrl: 'app/main/main.options.html',
+                controller: 'optionsCtrl',
+                size: 'lg'
+            });
+
+            addOptionsModal.result.then(function(options) {
+                $scope.day = options.day;
+                $scope.times = options.times;
+                getData();
+            });
+        };
+
+        $scope.changeOptions();
 
     }
 })();

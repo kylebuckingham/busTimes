@@ -81,13 +81,12 @@
 
     .filter('millisToTime', function() {
         return function(num) {
-                
+
             var times = {
                 d: 86400000,
                 h: 3600000,
-                m: 60000,
-                s: 1000,
-                ms: 1
+                min: 60000,
+                sec: 1000
             }, newDate = '';
 
             for (var t in times){

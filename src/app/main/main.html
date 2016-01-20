@@ -1,6 +1,6 @@
 <div class="container">
 
-	<div class="cssload-dots" ng-if="loading   ">
+	<div class="cssload-dots" ng-if="loading">
 		<div class="cssload-dot"></div>
 		<div class="cssload-dot"></div>
 		<div class="cssload-dot"></div>
@@ -18,53 +18,43 @@
 		</defs>
 	</svg>
 
-	<map zoom="11" id="map" center="[47.609722,-122.333056]" ng-if="vm.ready">
+	<map zoom="11" id="map" center="[47.609722,-122.333056]">
 
 		<marker ng-if="marks === true && mapData" ng-repeat="pos in mapData" position="{{pos.lat}},{{pos.lon}}" on-click="showInfoWindow(event, pos)"></marker>
 
 		<heatmap-layer ng-if="heat === true && mapData" data="mapData" id="foo"></heatmap-layer>
 	</map>
 
-	<div class="controlsDB">
+	<div class="step2" ng-show="!loading" ng-hide="hideSteps">
+        <div class="step1">
+            <span class="title">Step 2: </span><span>Select your route(s) and click either "heatmap" or "markers" to see specific stop location</span>
+        </div>
 
-		<div class="choseTime">
-			<select name="days" ng-options="days for days in days" ng-model="day"></select>
-		</div>
-
-		<div class="choseTime">
-			<select name="start" ng-options="time for time in possibleTimes" ng-model="times.start"></select> to
-			<select name="end" ng-options="time for time in possibleTimes" ng-model="times.end"></select>
-			<div>
-				<span ng-if="badTime">Start must become before end</span>
-			</div>
-			<!-- <span ng-click="times.splice($index, 1)">x</span> -->
-			<!-- <div ng-click="times.push({start: '12 am', end: '12 am'})">+ add time range</div> -->
-		</div>
-
-		<div>
-			<button type="button" class="btn btn-primary" ng-click="compute()">Submit</button>
-		</div>
-
+		 <div class="cancel" ng-click="hideSteps = true">
+        	<span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+    	</div>
 	</div>
 
-	<div class="controls">
-
-		<div>
-			<span>Lateness (min)</span>
-			<input type="number" id="lateness" name="quantity" min="0" ng-model="lateness">
-		</div>
+	<div class="controls" ng-show="!loading">
 
 		<div ng-dropdown-multiselect="" options="routes" selected-model="selectedRoutes" extra-settings="mOptions" translation-texts="mTexts"></div>
 
 		<div>
 
 			<div class="checkbox">
-			 	<label><input type="checkbox" value="marks" ng-click="marks = !marks">Markers</label>
+			 	<label><input type="checkbox" value="marks" ng-click="marks = !marks">Show Stops</label>
 			</div>
 			<div class="checkbox">
 			 	<label><input type="checkbox" value="heat" ng-click="heat = !heat">Heat Map</label>
 			</div>
 		</div>
+
+		<div>
+			<span>Filter by Lateness (min)</span>
+			<input type="number" id="lateness" name="quantity" min="0" ng-model="lateness">
+		</div>
+
+		<button type="button" class="btn btn-primary editOptions" ng-click="changeOptions()">Edit Times</button>
 
 	</div>
 
